@@ -48,17 +48,17 @@ Default: `[]`
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License) © []()
 
-[npm-url]: https://npmjs.org/package/gulp-markdown-it
+[npm-url]: https://www.npmjs.com/package/@psoltys/gulp-markdown-it
 [npm-image]: https://img.shields.io/npm/v/gulp-markdown-it.svg
 
-[travis-url]: http://travis-ci.org/mcecot/gulp-markdown-it
-[travis-image]: https://secure.travis-ci.org/mcecot/gulp-markdown-it.svg?branch=master
+[travis-url]: http://travis-ci.org/soltys/gulp-markdown-it
+[travis-image]: https://secure.travis-ci.org/soltys/gulp-markdown-it.svg?branch=master
 
-[coveralls-url]: https://coveralls.io/r/mcecot/gulp-markdown-it
-[coveralls-image]: https://img.shields.io/coveralls/mcecot/gulp-markdown-it.svg
+[coveralls-url]: https://coveralls.io/r/soltys/gulp-markdown-it
+[coveralls-image]: https://img.shields.io/coveralls/soltys/gulp-markdown-it.svg
 
-[depstat-url]: https://david-dm.org/mcecot/gulp-markdown-it
-[depstat-image]: https://david-dm.org/mcecot/gulp-markdown-it.svg
+[depstat-url]: https://david-dm.org/soltys/gulp-markdown-it
+[depstat-image]: https://david-dm.org/soltys/gulp-markdown-it.svg
 
-[devdepstat-url]: https://david-dm.org/mcecot/gulp-markdown-it#info=devDependencies
-[devdepstat-image]: https://david-dm.org/mcecot/gulp-markdown-it/dev-status.svg
+[devdepstat-url]: https://david-dm.org/soltys/gulp-markdown-it#info=devDependencies
+[devdepstat-image]: https://david-dm.org/soltys/gulp-markdown-it/dev-status.svg
