@@ -1,6 +1,6 @@
 {
-  "name": "gulp-markdown-it",
-  "version": "0.1.2",
+  "name": "@soltys/gulp-markdown-it",
+  "version": "0.2.0",
   "description": "A plugin for gulp to render markdown with markdown-it",
   "keywords": [
     "gulp",
@@ -8,11 +8,11 @@
     "markdown",
     "markdown-it"
   ],
-  "repository": "mcecot/gulp-markdown-it",
+  "repository": "soltys/gulp-markdown-it",
   "author": {
-    "name": "markus cecot",
-    "email": "mail@cecot.de",
-    "url": ""
+    "name": "Pawel Soltysiak",
+    "email": "pawel@soltysiak.it",
+    "url": "https://blog.soltysiak.it/en/"
   },
   "files": [
     "index.js"
