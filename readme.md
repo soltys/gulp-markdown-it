@@ -9,7 +9,7 @@
 First, install `gulp-markdown-it` as a development dependency:
 
 ```shell
-npm install --save-dev gulp-markdown-it
+npm install --save-dev @psoltys/gulp-markdown-it
 ```
 
 Then, add it to your `gulpfile.js`:
