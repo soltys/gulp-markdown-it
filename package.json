@@ -1,5 +1,5 @@
 {
-  "name": "@soltys/gulp-markdown-it",
+  "name": "@psoltys/gulp-markdown-it",
   "version": "0.2.0",
   "description": "A plugin for gulp to render markdown with markdown-it",
   "keywords": [
