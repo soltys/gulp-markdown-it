@@ -4,8 +4,6 @@ del = require('del');
 
 gulp = require('gulp');
 
-coffee = require('gulp-coffee');
-
 gutil = require('gulp-util');
 
 bump = require('gulp-bump');
@@ -22,17 +20,11 @@ inc = function (importance) {
     })).pipe(gulp.dest('./')).pipe(git.commit('bumps package version')).pipe(tag());
 };
 
-gulp.task('coffee', function () {
-    return gulp.src('index.coffee').pipe(coffee({
-        bare: true
-    })).pipe(gulp.dest('./'));
-});
-
 gulp.task('clean', function (cb) {
     return del(['dist', 'coverage', 'temp'], cb);
 });
 
-gulp.task('test', ['coffee'], function () {
+gulp.task('test', function () {
     return spawn('npm', ['test'], {
         stdio: 'inherit'
     });
@@ -44,7 +36,7 @@ gulp.task('md', function () {
     return gulp.src('./{,test/,test/fixtures/}*.md').pipe(markdownIt()).pipe(gulp.dest('./temp'));
 });
 
-gulp.task('default', ['coffee'], function () {
+gulp.task('default', function () {
     return gulp.watch(['./{,test/,test/fixtures/}*.coffee'], ['test']);
 });
 
